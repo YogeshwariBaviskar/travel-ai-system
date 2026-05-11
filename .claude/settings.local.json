@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker-compose ps *)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:3000\" -TimeoutSec 10 -UseBasicParsing; \"HTTP $\\($r.StatusCode\\) - OK\" } catch { \"ERROR: $_\" })"
+    ]
+  }
+}
